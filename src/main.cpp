@@ -1,7 +1,13 @@
+#include <QtWidgets>
 #include <iostream>
 
-int main(void)
+int main(int ac, char **av)
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    // open a window
+    QApplication app(ac, av);
+    QWidget window;
+    window.resize((ac > 1) ? atoi(av[1]) : 200, (ac > 2) ? atoi(av[2]) : 200);
+    window.show();
+
+    return app.exec();
 }
