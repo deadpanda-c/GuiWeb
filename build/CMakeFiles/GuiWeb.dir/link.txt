@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/GuiWeb.dir/GuiWeb_autogen/mocs_compilation.cpp.o CMakeFiles/GuiWeb.dir/src/main.cpp.o -o GuiWeb  /usr/lib/libQt6Widgets.so.6.6.1 /usr/lib/libQt6Gui.so.6.6.1 /usr/lib/libQt6Core.so.6.6.1 /usr/lib/libGLX.so /usr/lib/libOpenGL.so 
